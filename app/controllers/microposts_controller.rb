@@ -1,7 +1,7 @@
 class MicropostsController < ApplicationController
   # GET /microposts
   # GET /microposts.json
-  def index
+  def index 
     @microposts = Micropost.all
 
     respond_to do |format|
